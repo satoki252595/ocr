@@ -11,7 +11,7 @@ import (
 
 func main() {
 
-	file := "IMG_1031.png"
+	file := "sample.png"
 
 	f, err := os.Open(file)
 	if err != nil {
